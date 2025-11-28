@@ -9,3 +9,4 @@ Stylish UI: Clean and minimalistic interface using CSS.
 Tech Stack:
 HTML for structure.
 CSS for styling and responsiveness.
+

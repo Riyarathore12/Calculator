@@ -1,0 +1,75 @@
+:root {
+  --bg-gradient: linear-gradient(45deg, #0a0a0a, #3a4452);
+  --text-color: #ffffff;
+  --input-bg: #f0eeee;
+  --input-text: #000000;
+  --operator-bg: #12c2f3;
+}
+
+body.dark {
+  --bg-gradient: linear-gradient(45deg, #1a1a1a, #121212);
+  --text-color: #e0e0e0;
+  --input-bg: #333333;
+  --input-text: #ffffff;
+  --operator-bg: #03a9f4;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'poppins' , sans-serif;
+  box-sizing: border-box;
+}
+.container{
+  width:100%;
+  height: 100vh;
+  background: linear-gradient(45deg , #0a0a0a , #3a4452);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+}
+
+
+.calculator{
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #717377;
+  box-shadow: 0px 3px 15px rgbs(84 , 84 , 84, 0.1);
+}
+.calculator form input{
+  border: none ;
+  padding: 24px;
+  outline: 0;
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.1) ,5px 5px 15px rgba(0,0, 0, 0.2);
+  background :transparent ;
+  font-size : 20px;
+cursor: pointer;
+margin :10px;
+background-color: #f0eeee;
+}
+form .display{
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0;
+}
+form .display input{
+  text-align: right;
+ flex :1;
+ font-size: 20px;
+box-shadow: none;
+
+}
+form input.equal{
+  width: 145px;
+}
+ form input.operator {
+ background-color:  #12c2f3;
+}
+
